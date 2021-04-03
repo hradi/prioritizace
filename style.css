@@ -23,21 +23,58 @@ h1 {
 
 
 
+.hlavicka {
+    background-image: url(pics/lite-floor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 10px;
 
+}
 
+a {
+    text-decoration: none;
+    color:rgb(96, 145, 0);
+}
 
+a:hover {
+    color:yellowgreen;
+}
+
+a:active {
+    color:firebrick;
+}
+
+.nav {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
+
+.school {
+    background-color: white;
+    padding: 2%;
+}
+
+.areas {
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    background-color: whitesmoke;
+}
 
 
 
 
 .paticka {
     text-align: center;
-    font-weight: bold;
+    font-weight: normal;
     color: black;
     background-image: url(pics/lite-floor.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-color: rgba(77, 77, 77, 0.247);
+    background-color: rgba(255, 255, 255, 0.247);
     padding: 10px;
 }
