@@ -1,0 +1,43 @@
+
+
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    margin: 0;
+
+}
+
+h1 {
+    font-size: 46px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.paticka {
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    background-image: url(pics/lite-floor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: rgba(77, 77, 77, 0.247);
+    padding: 10px;
+}
