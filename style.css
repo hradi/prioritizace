@@ -65,7 +65,9 @@ a:hover {
 a:active {
     color:firebrick;
 }
-
+.fling-up {
+    text-align: end;
+}
 .nav {
     display: flex;
     padding: 10px 5%;
@@ -74,9 +76,17 @@ a:active {
 }
 
 .school {
-    background-color: white;
+    background-color:rgba(20, 20, 20, 0.26);
+    background-image: url(pics/white-texture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-
+.sch-overview {
+    background-color: rgba(255, 255, 255, 0.568);
+    margin: 0 -6%;
+    padding: 2% 7%;
+}
 
 
 .areas {
@@ -84,24 +94,38 @@ a:active {
     flex-direction: column;
     box-sizing: border-box;
     padding: 10px;
+    margin: 10px 0px;
     background-color: whitesmoke;
-    background-image: url(pics/lite-floor.jpg);
+    background-image: url(pics/written.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
 }
 
-.areas div {
-    margin: 3px;
-    background-color: rgba(255, 255, 255, 0.774);
-    padding: 10px;
-    text-align: center;
-}
+    .areas a {
+        padding: 2% 35%;
+    }
+
+    .areas div {
+        margin: 1%;
+        background-color: rgba(255, 255, 255, 0.774);
+        padding: 10px;
+        text-align: center;
+    }
+
+    
 
 .urgent {
-    padding: 7px;
+    padding: 2% 5% 10% 5%;
+    margin: 5% -5%;
+    background-color: rgba(248, 225, 198, 0.514);
 }
 
+.long-term {
+    background-color: rgba(216, 191, 216, 0.507);
+    margin: 5% -5%;
+    padding: 10px;
+}
 
 .paticka {
     text-align: center;
@@ -113,4 +137,37 @@ a:active {
     background-size: cover;
     background-color: rgba(255, 255, 255, 0.247);
     padding: 10px;
+}
+
+
+@media screen and (min-width: 800px) {
+    h1 {
+        font-size: 160px;
+        text-align: end;
+        padding: 0 20%;
+    }
+    section {
+        padding: 10px 33%;
+    }
+    .nav {
+        padding: 10px 33%;
+    }
+    .areas {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 10px 5%;
+        margin: 5% 0;
+    }
+    .areas div {
+        padding: 5px;
+        margin: 0;
+        background-color: rgba(255, 255, 255, 0);
+    }
+    
+    .areas a {
+        padding: 5px 20px;
+        background-color: rgba(255, 255, 255, 0.685);
+
+    }
 }
