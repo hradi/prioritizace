@@ -9,7 +9,7 @@ body {
 
 
 h1 {
-    font-size: 66px;
+    font-size: 70px;
     color: white;
     font-weight:lighter;
 }
@@ -29,7 +29,9 @@ h4 {
     font-weight: lighter;
 }
 
-
+section {
+    padding: 5px 5%;
+}
 
 
 
@@ -45,7 +47,7 @@ h4 {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding: 5px 10%;
+    padding: 5px 5%;
 
 }
 
@@ -66,25 +68,34 @@ a:active {
 
 .nav {
     display: flex;
-    padding: 10px 10%;
+    padding: 10px 5%;
     justify-content: space-between;
     background-color: whitesmoke;
 }
 
 .school {
     background-color: white;
-    padding: 5px 10%;
 }
 
-section {
-    padding: 5px 10%;
-}
+
 
 .areas {
     display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
     padding: 10px;
-    justify-content: space-between;
     background-color: whitesmoke;
+    background-image: url(pics/lite-floor.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.areas div {
+    margin: 3px;
+    background-color: rgba(255, 255, 255, 0.774);
+    padding: 10px;
+    text-align: center;
 }
 
 .urgent {
