@@ -22,6 +22,7 @@ h2 {
 h3 {
     font-size: 24px;
     font-weight: lighter;
+    font-family: "Roboto", "sans-serif";
 }
 
 h4 {
@@ -51,7 +52,9 @@ section {
 
 }
 
-
+.colored-b {
+    color:lightcyan;
+}
 
 a {
     text-decoration: none;
@@ -126,6 +129,22 @@ a:active {
     margin: 5% -5%;
     padding: 10px;
 }
+
+.me {
+    background-image: url(pics/darky-sh.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color:white;
+}
+    .rants {
+        font-family: serif;
+    }    
+        .apr-3 {
+            background-color: rgba(224, 255, 255, 0.185);
+            margin: 5% -5%;
+            padding: 10px;
+        }
 
 .paticka {
     text-align: center;
