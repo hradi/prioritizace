@@ -71,6 +71,13 @@ a:active {
 .fling-up {
     text-align: end;
 }
+.fling-up-me {
+    text-align: end;
+}
+
+.sans {
+    font-family: "Roboto", "sans-serif";
+}
 .nav {
     display: flex;
     padding: 10px 5%;
