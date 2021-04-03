@@ -1,14 +1,26 @@
 
 
 body {
-    font-family: sans-serif;
+    font-family: "Roboto", "sans-serif";
     font-size: 16px;
     margin: 0;
 
 }
 
 h1 {
-    font-size: 46px;
+    font-size: 66px;
+    color: white;
+    font-weight:lighter;
+}
+
+h2 {
+    font-size: 44px;
+    font-weight: lighter;
+}
+
+h3 {
+    font-size: 24px;
+    font-weight: lighter;
 }
 
 
@@ -47,7 +59,7 @@ a:active {
 
 .nav {
     display: flex;
-    padding: 10px;
+    padding: 10px 20px;
     justify-content: space-between;
     background-color: whitesmoke;
 }
@@ -64,6 +76,9 @@ a:active {
     background-color: whitesmoke;
 }
 
+.urgent {
+    padding: 7px;
+}
 
 
 
